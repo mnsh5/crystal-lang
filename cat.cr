@@ -21,9 +21,6 @@ class Malala < Cat
   def city
     puts "#{@name} is from #{@city}..."
   end
-
-
-
 end
 
 # malala = Cat.new "Malala"
