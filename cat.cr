@@ -3,8 +3,12 @@ class Cat
     @name = name
   end
 
-  def greetting
-    puts "#{@name} says Meeoow..."
+  def greet
+    puts "Meow! I'm #{@name}."
+  end
+
+  def meow
+    "#{@name} says Meow!"
   end
 end
 
@@ -18,12 +22,15 @@ class Malala < Cat
     puts "#{@name} is from #{@city}..."
   end
 
+
+
 end
 
 # malala = Cat.new "Malala"
 # malala = Cat.new("Malala")
-# puts malala.greetting
+# puts malala.greet
 
 malala = Malala.new("Malala", "Paris")
-puts malala.greetting
+puts malala.greet
+puts malala.meow
 puts malala.city
