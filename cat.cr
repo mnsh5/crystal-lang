@@ -23,10 +23,6 @@ class Malala < Cat
   end
 end
 
-# malala = Cat.new "Malala"
-# malala = Cat.new("Malala")
-# puts malala.greet
-
 malala = Malala.new("Malala", "Paris")
 puts malala.greet
 puts malala.meow
