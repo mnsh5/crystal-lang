@@ -6,6 +6,10 @@ class Cat
   def greet
     "Meow... I'm #{@name}"
   end
+
+  def meow
+    "#{@name} says Meow"
+  end
 end
 
 class Malala < Cat
@@ -22,6 +26,7 @@ end
 
 robin = Cat.new("Robin Hood")
 puts robin.greet
+puts robin.meow
 
 malala = Malala.new("Malala", "New York")
 puts malala.city
