@@ -30,4 +30,4 @@ end
 
 john = Person.new "John"
 john.age = 32
-john.age # => 32
+puts john.age # => 32
