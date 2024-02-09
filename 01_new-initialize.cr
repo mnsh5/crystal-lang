@@ -8,6 +8,10 @@ class Cat
   end
 
   def meow
-    "#{@name} says Meow!"
+    "Meow"
   end
 end
+
+robin = Cat.new("Robin Hood")
+puts robin.greet
+puts robin.meow
